@@ -51,6 +51,10 @@ path = ~/klipper-led_effect
 origin = https://github.com/julianschill/klipper-led_effect.git
 is_system_service = False
 
+[spoolman]
+server = http://spoolman.local:7912
+sync_rate = 5
+
 [update_manager octoeverywhere]
 type = git_repo
 channel = beta
